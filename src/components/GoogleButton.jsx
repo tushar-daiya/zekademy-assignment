@@ -7,7 +7,6 @@ import { toast } from "sonner";
 
 export default function GoogleButton({ text }) {
   async function handleGoogleSignup() {
-    console.log("hello");
     try {
       await signInWithPopup(auth, provider);
     } catch (error) {

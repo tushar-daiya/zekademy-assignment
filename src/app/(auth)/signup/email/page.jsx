@@ -6,7 +6,6 @@ import Link from "next/link";
 import React from "react";
 import { toast } from "sonner";
 export default function page() {
-  const { user } = useAuthContext();
   async function handleSubmit(formData) {
     const email = formData.get("email");
     const password = formData.get("password");

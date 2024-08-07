@@ -55,7 +55,7 @@ export default function page() {
         </button>
       </form>
       <p className="text-center  text-sm mt-5">
-        Don't have an account?{" "}
+        Don&apos;t have an account?
         <Link href="/signup">
           <span className="text-blue-500">Sign up</span>
         </Link>
