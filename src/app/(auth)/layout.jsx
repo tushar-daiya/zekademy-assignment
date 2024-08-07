@@ -18,7 +18,7 @@ export default function AuthLayout({ children }) {
         <Image
           width={1920}
           height={1080}
-          src="/bg.jpeg"
+          src="/bg.webp"
           alt="background"
           className="w-full h-full object-cover"
         />
