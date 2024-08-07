@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import React, { useEffect } from "react";
 
-export default function layout({ children }) {
+export default function AuthLayout({ children }) {
   const router = useRouter();
   const { user } = useAuthContext();
   useEffect(() => {

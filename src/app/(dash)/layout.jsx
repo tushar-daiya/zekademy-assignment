@@ -5,9 +5,9 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import React, { useEffect } from "react";
 
-export default function layout({ children }) {
+export default function DashLayout({ children }) {
   const router = useRouter();
-  const { user, loading } = useAuthContext();
+  const { user } = useAuthContext();
   useEffect(() => {
     if (!user) {
       router.push("/signup");
